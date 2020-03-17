@@ -4,8 +4,8 @@ namespace Com.Bigdata.Dis.Sdk.DISCommon.Auth
 {
     public class BasicCredentials : ICredentials
     {
-        private readonly string _accessKey;
-        private readonly string _secretKey;
+        private readonly string accessKey;
+        private readonly string secretKey;
         private readonly string ak;
         private readonly string sk;
 
@@ -20,7 +20,9 @@ namespace Com.Bigdata.Dis.Sdk.DISCommon.Auth
             {
                 throw new ArgumentException("Secret key cannot be null.");
             }
-
+            //access key='';
+            //secret key='';
+            //huaweicloud myhuaweiclouds
             ak = '4DKX9KS03M1XPSJKDQJD';
             accessKey = '4DKX9KS03M1XPSJKDQJD';
             sk = 'Dkc9dk20d8n33oskKdckNkd99lKIjwnJIpkKInkO';
