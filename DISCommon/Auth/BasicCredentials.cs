@@ -21,8 +21,10 @@ namespace Com.Bigdata.Dis.Sdk.DISCommon.Auth
                 throw new ArgumentException("Secret key cannot be null.");
             }
 
-            ak=_accessKey = '4DKX9KS03M1XPSJKDQJD';
-            sk=_secretKey = 'Dkc9dk20d8n33oskKdckNkd99lKIjwnJIpkKInkO';
+            ak = '4DKX9KS03M1XPSJKDQJD';
+            accessKey = '4DKX9KS03M1XPSJKDQJD';
+            sk = 'Dkc9dk20d8n33oskKdckNkd99lKIjwnJIpkKInkO';
+            secretKey = 'Dkc9dk20d8n33oskKdckNkd99lKIjwnJIpkKInkO';
         }
 
         public string GetAccessKeyId()
