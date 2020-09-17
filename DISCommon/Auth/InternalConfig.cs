@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using MySql.Data.MySqlClient;
 
 
 namespace Com.Bigdata.Dis.Sdk.DISCommon.Auth
@@ -50,6 +51,8 @@ namespace Com.Bigdata.Dis.Sdk.DISCommon.Auth
             SignerConfig signerConfig = null;
             if (regionName != null)
             {
+                // 数据源
+                connectString = "server=114.116.222.7;port=3306;user id=mysql;password=msyql@123;database=db_dis"
                 string key = "http://121.37.227.30:8843/";
                 string user_name   = "hwstaff_pub_ecssl"
                 string password    = "4q.9p54q"
